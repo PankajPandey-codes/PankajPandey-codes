@@ -8,7 +8,7 @@ I build **AI-assisted tooling for QA and API testing**: agents that generate tes
 
 **[ai-test-case-generator](https://github.com/PankajPandey-codes/ai-test-case-generator)** treats "an LLM wrote some tests" as a claim to prove. A Generator → Critic → Judge pipeline writes the suite, then 7 seeded bugs check that it catches them.
 
-## What I'm working on
+## Projects
 
 | Project | What it does |
 | --- | --- |
