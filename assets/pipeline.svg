@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Pipeline: API spec to Generator agent to Critic agent (revise loop) to seeded-bug harness to Judge agent to Gate">
+  <style>
+    .bg{fill:#ffffff}
+    .txt{fill:#1f2328}
+    .sub{fill:#59636e}
+    .line{stroke:#8c959f}
+    .agent{fill:#f3efff;stroke:#8250df}
+    .code{fill:#ddf4ff;stroke:#0969da}
+    .io{fill:#f6f8fa;stroke:#d0d7de}
+    .pass{fill:#dafbe1;stroke:#1a7f37}
+    .head{fill:#8250df}
+    .headc{fill:#0969da}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#0d1117}
+      .txt{fill:#e6edf3}
+      .sub{fill:#9198a1}
+      .line{stroke:#6e7681}
+      .agent{fill:#2a1f4a;stroke:#a371f7}
+      .code{fill:#0c2d4f;stroke:#4493f8}
+      .io{fill:#161b22;stroke:#3d444d}
+      .pass{fill:#0f2e1a;stroke:#3fb950}
+      .head{fill:#a371f7}
+      .headc{fill:#4493f8}
+    }
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="sub" style="fill:#8c959f"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="880" height="210" rx="12"/>
+
+  <!-- boxes: y=70, h=64 -->
+  <rect class="io" x="16" y="70" width="104" height="64" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="68" y="100" text-anchor="middle" font-size="14" font-weight="600">API spec</text>
+  <text class="sub" x="68" y="118" text-anchor="middle" font-size="11">OpenAPI / JSON</text>
+
+  <rect class="agent" x="146" y="70" width="118" height="64" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="205" y="100" text-anchor="middle" font-size="14" font-weight="600">Generator</text>
+  <text class="sub" x="205" y="118" text-anchor="middle" font-size="11">writes pytest suite</text>
+
+  <rect class="agent" x="290" y="70" width="118" height="64" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="349" y="100" text-anchor="middle" font-size="14" font-weight="600">Critic</text>
+  <text class="sub" x="349" y="118" text-anchor="middle" font-size="11">syntax + coverage</text>
+
+  <rect class="code" x="434" y="70" width="132" height="64" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="500" y="100" text-anchor="middle" font-size="14" font-weight="600">Harness</text>
+  <text class="sub" x="500" y="118" text-anchor="middle" font-size="11">runs vs 7 seeded bugs</text>
+
+  <rect class="agent" x="592" y="70" width="118" height="64" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="651" y="100" text-anchor="middle" font-size="14" font-weight="600">Judge</text>
+  <text class="sub" x="651" y="118" text-anchor="middle" font-size="11">rubric score</text>
+
+  <rect class="pass" x="736" y="70" width="128" height="64" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="800" y="100" text-anchor="middle" font-size="14" font-weight="600">Gate</text>
+  <text class="sub" x="800" y="118" text-anchor="middle" font-size="11">pass / fail</text>
+
+  <!-- arrows -->
+  <g class="line" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <line x1="120" y1="102" x2="144" y2="102"/>
+    <line x1="264" y1="102" x2="288" y2="102"/>
+    <line x1="408" y1="102" x2="432" y2="102"/>
+    <line x1="566" y1="102" x2="590" y2="102"/>
+    <line x1="710" y1="102" x2="734" y2="102"/>
+    <path d="M349,70 C349,40 205,40 205,68"/>
+  </g>
+  <text class="sub" x="277" y="38" text-anchor="middle" font-size="11">revise (max 1 retry)</text>
+
+  <!-- gate rule -->
+  <text class="sub" x="800" y="156" text-anchor="middle" font-size="11">baseline passes</text>
+  <text class="sub" x="800" y="171" text-anchor="middle" font-size="11">≥ 70% bugs caught</text>
+  <text class="sub" x="800" y="186" text-anchor="middle" font-size="11">judge score ≥ 3.5</text>
+
+  <!-- legend -->
+  <rect class="agent" x="16" y="172" width="14" height="14" rx="3" stroke-width="1.5"/>
+  <text class="txt" x="38" y="184" font-size="12">Claude agent</text>
+  <rect class="code" x="132" y="172" width="14" height="14" rx="3" stroke-width="1.5"/>
+  <text class="txt" x="154" y="184" font-size="12">plain Python, no LLM</text>
+</svg>

@@ -13,17 +13,7 @@
 
 Three Claude agents write a pytest suite from an API spec. A reference app with **7 named, seeded bugs** (auth bypass, data leak, idempotency violation, …) then checks whether that suite actually catches them.
 
-```mermaid
-flowchart LR
-    S[API spec] --> G[Generator agent]
-    G --> C{Critic agent}
-    C -- revise, max 1 retry --> G
-    C -- accept --> H[Harness: run suite against 7 seeded bugs]
-    H --> J[Judge agent: rubric score]
-    J --> Q{Gate}
-    Q -->|baseline passes, at least 70% caught, score at least 3.5| P[Pass]
-    Q -->|otherwise| F[Fail]
-```
+<p align="center"><img src="assets/pipeline.svg" width="100%" alt="Pipeline: API spec → Generator → Critic (revise loop) → seeded-bug Harness → Judge → Gate" /></p>
 
 No agent framework: the orchestration is a single ~40-line function with typed contracts at every step. CI runs the full suite against a fake LLM client, so it costs nothing and never flakes. A live run costs about $0.11. → [Read the repo](https://github.com/PankajPandey-codes/ai-test-case-generator)
 
