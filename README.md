@@ -1,8 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Pankaj%20Pandey&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI-assisted%20QA%20%E2%80%A2%20API%20testing%20%E2%80%A2%20Agent%20tooling&descAlignY=58&descSize=18" width="100%" alt="Pankaj Pandey" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,50:E100FF,100:00C6FF&height=210&section=header&text=Pankaj%20Pandey&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI-assisted%20QA%20%E2%80%A2%20API%20testing%20%E2%80%A2%20Agent%20tooling&descAlignY=58&descSize=18" width="100%" alt="Pankaj Pandey" />
 
-**I build agents that write tests, then prove those tests catch real bugs.**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=E100FF&center=true&vCenter=true&width=720&lines=I+build+agents+that+write+tests...;...then+prove+they+catch+real+bugs+%F0%9F%90%9B;Mutation+testing+%3E+coverage+numbers;Capture+%E2%86%92+redact+%E2%86%92+replay+real+API+traffic" alt="I build agents that write tests, then prove they catch real bugs" />
+
+<p>
+  <a href="https://www.linkedin.com/in/pankaj-pandey-46535b50"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:pankajpconnect@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Open_to-AI_%2F_Agent_QA_roles-00C853?style=for-the-badge" alt="Open to AI / Agent QA roles" />
+</p>
 
 </div>
 
@@ -18,14 +24,19 @@
 
 Counted from the public repos on this profile.
 
-| Metric | Value |
+<p align="center">
+  <img src="https://img.shields.io/badge/Automated_tests-1%2C100%2B-FF4081?style=for-the-badge&logo=testinglibrary&logoColor=white" />
+  <img src="https://img.shields.io/badge/Original_tools-6-7C4DFF?style=for-the-badge&logo=githubsponsors&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seeded_bugs-7-FF6D00?style=for-the-badge&logo=bugsnag&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kill--rate_gate-%E2%89%A570%25-00BFA5?style=for-the-badge&logo=pytest&logoColor=white" />
+</p>
+
+| Project | What the tests prove |
 | --- | --- |
-| 🧪 Automated tests across my projects | **1,100+** (pytest, JUnit, JS) |
-| 🛠️ Original tools shipped | **6** (Python, Java, macOS, desktop) |
-| 🧬 Seeded bugs the AI-generated suite must catch | **7** named bugs; gate is **≥ 70 % kill rate**, rubric ≥ 3.5 |
-| ☕ JUnit tests in the regression runner | **205** |
-| 👁️ Tests in the iris API console | **700+** (Python + JS) |
-| 🌊 Tests in the flowforge traffic-capture tool | **107** |
+| 🧬 ai-test-case-generator | AI-written suite must catch **7 named seeded bugs** (gate: ≥ 70 % killed, rubric ≥ 3.5) |
+| 👁️ iris | **700+** Python + JS tests behind a native macOS API console |
+| ☕ java-regression-runner | **205** JUnit tests for a CSV/JSON-driven regression engine |
+| 🌊 flowforge | **107** tests covering capture, redaction and fixture generation |
 
 ## 🚀 Featured projects
 
@@ -112,6 +123,6 @@ CSV/JSON-driven API regression runner: **step chaining, SQL steps, HTML reports*
 ## 📫 Get in touch
 
 Open to conversations about **AI-assisted testing and agent tooling** roles.
-Reach me through the links on my profile, or open an issue on any repo.
+📧 [pankajpconnect@gmail.com](mailto:pankajpconnect@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/pankaj-pandey-46535b50) · or open an issue on any repo.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=110&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:E100FF,100:7F00FF&height=110&section=footer" width="100%" />
