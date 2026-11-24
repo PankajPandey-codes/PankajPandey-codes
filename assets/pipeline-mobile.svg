@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 520" width="360" height="520" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Pipeline: API spec to Generator agent to Critic agent (revise loop) to seeded-bug harness to Judge agent to Gate">
+  <style>
+    .bg{fill:#ffffff}
+    .txt{fill:#1f2328}
+    .sub{fill:#59636e}
+    .line{stroke:#8c959f}
+    .agent{fill:#f3efff;stroke:#8250df}
+    .code{fill:#ddf4ff;stroke:#0969da}
+    .io{fill:#f6f8fa;stroke:#d0d7de}
+    .pass{fill:#dafbe1;stroke:#1a7f37}
+    @media (prefers-color-scheme: dark){
+      .bg{fill:#0d1117}
+      .txt{fill:#e6edf3}
+      .sub{fill:#9198a1}
+      .line{stroke:#6e7681}
+      .agent{fill:#2a1f4a;stroke:#a371f7}
+      .code{fill:#0c2d4f;stroke:#4493f8}
+      .io{fill:#161b22;stroke:#3d444d}
+      .pass{fill:#0f2e1a;stroke:#3fb950}
+    }
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" style="fill:#8c959f"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="360" height="520" rx="12"/>
+
+  <rect class="io"    x="30" y="16"  width="240" height="54" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="150" y="40"  text-anchor="middle" font-size="16" font-weight="600">API spec</text>
+  <text class="sub" x="150" y="58"  text-anchor="middle" font-size="12">demo spec included</text>
+
+  <rect class="agent" x="30" y="94"  width="240" height="54" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="150" y="118" text-anchor="middle" font-size="16" font-weight="600">Generator</text>
+  <text class="sub" x="150" y="136" text-anchor="middle" font-size="12">writes pytest suite</text>
+
+  <rect class="agent" x="30" y="172" width="240" height="54" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="150" y="196" text-anchor="middle" font-size="16" font-weight="600">Critic</text>
+  <text class="sub" x="150" y="214" text-anchor="middle" font-size="12">syntax + coverage</text>
+
+  <rect class="code"  x="30" y="250" width="240" height="54" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="150" y="274" text-anchor="middle" font-size="16" font-weight="600">Harness</text>
+  <text class="sub" x="150" y="292" text-anchor="middle" font-size="12">runs suite vs 7 seeded bugs</text>
+
+  <rect class="agent" x="30" y="328" width="240" height="54" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="150" y="352" text-anchor="middle" font-size="16" font-weight="600">Judge</text>
+  <text class="sub" x="150" y="370" text-anchor="middle" font-size="12">rubric score</text>
+
+  <rect class="pass"  x="30" y="406" width="240" height="54" rx="10" stroke-width="1.5"/>
+  <text class="txt" x="150" y="430" text-anchor="middle" font-size="16" font-weight="600">Gate: pass / fail</text>
+  <text class="sub" x="150" y="448" text-anchor="middle" font-size="12">≥ 70% bugs caught · judge ≥ 3.5</text>
+
+  <g class="line" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <line x1="150" y1="70"  x2="150" y2="92"/>
+    <line x1="150" y1="148" x2="150" y2="170"/>
+    <line x1="150" y1="226" x2="150" y2="248"/>
+    <line x1="150" y1="304" x2="150" y2="326"/>
+    <line x1="150" y1="382" x2="150" y2="404"/>
+    <path d="M270,199 C320,199 320,121 272,121"/>
+  </g>
+  <text class="sub" x="330" y="164" text-anchor="middle" font-size="11" transform="rotate(90 330 164)">revise (max 1)</text>
+
+  <rect class="agent" x="30" y="482" width="14" height="14" rx="3" stroke-width="1.5"/>
+  <text class="txt" x="52" y="494" font-size="12">Claude agent</text>
+  <rect class="code" x="150" y="482" width="14" height="14" rx="3" stroke-width="1.5"/>
+  <text class="txt" x="172" y="494" font-size="12">plain Python, no LLM</text>
+</svg>

@@ -1,26 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Pankaj Pandey: I make AI-written tests prove they work">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-label="Pankaj Pandey, QA Engineer: API and AI-assisted testing">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#2f5fd0"/>
       <stop offset="0.55" stop-color="#5b3df5"/>
       <stop offset="1" stop-color="#9b30e8"/>
     </linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.4" fill="#ffffff" fill-opacity="0.12"/>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity="0.12"/>
     </pattern>
   </defs>
-  <rect width="1200" height="240" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="240" rx="18" fill="url(#dots)"/>
-  <circle cx="1090" cy="40" r="150" fill="#ffffff" fill-opacity="0.07"/>
-  <circle cx="1010" cy="250" r="110" fill="#ffffff" fill-opacity="0.06"/>
+  <rect width="800" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="800" height="300" rx="20" fill="url(#dots)"/>
+  <circle cx="720" cy="40" r="140" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="650" cy="310" r="100" fill="#ffffff" fill-opacity="0.06"/>
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#ffffff">
-    <text x="64" y="104" font-size="60" font-weight="800" letter-spacing="-1">Pankaj Pandey</text>
-    <text x="66" y="148" font-size="26" font-weight="500" fill-opacity="0.92">I make AI-written tests prove they work.</text>
+    <text x="52" y="122" font-size="72" font-weight="800" letter-spacing="-1.5">Pankaj Pandey</text>
+    <text x="54" y="178" font-size="32" font-weight="600" fill-opacity="0.95">QA Engineer · API &amp; AI-Assisted Testing</text>
   </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#ffffff">
-    <rect x="64" y="176" width="508" height="36" rx="18" fill="#ffffff" fill-opacity="0.14"/>
-    <text x="86" y="200" fill-opacity="0.95">generator → critic → seeded bugs → judge</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#ffffff">
+    <rect x="52" y="210" width="398" height="44" rx="22" fill="#ffffff" fill-opacity="0.16"/>
+    <text x="76" y="239" fill-opacity="0.97">Python · Java · pytest · Claude</text>
   </g>
 </svg>
