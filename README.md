@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f8cff,100:c056f5&height=150&section=header&text=Pankaj%20Pandey&fontSize=44&fontColor=ffffff&fontAlignY=40&desc=QA%20engineer%20%C2%B7%20AI-assisted%20test%20tooling&descAlignY=62&descSize=18" width="100%" alt="Pankaj Pandey, QA engineer, AI-assisted test tooling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2f5fd0,100:7b2ff7&height=150&animation=fadeIn&section=header&text=Pankaj%20Pandey&fontSize=44&fontColor=ffffff&fontAlignY=40&desc=QA%20engineer%20%C2%B7%20AI-assisted%20test%20tooling&descAlignY=62&descSize=18" width="100%" alt="Pankaj Pandey, QA engineer, AI-assisted test tooling"/>
 
 **I build tools that check whether AI-written tests are actually any good.**
 
@@ -92,11 +92,4 @@ Agent-harness toolkit for Claude Code, Codex, Cursor and more. Adapted from MIT-
 - **Say where the tool stops.** Every README lists what is out of scope.
 - **Local-first.** No hosted service; LLM-backed tools use your own API key.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,java,js,fastapi,flask,mysql,githubactions,git&theme=dark">
-    <img src="https://skillicons.dev/icons?i=python,java,js,fastapi,flask,mysql,githubactions,git&theme=light" alt="Python, Java, JavaScript, FastAPI, Flask, MySQL, GitHub Actions, Git"/>
-  </picture>
-</p>
-
-<p align="center"><sub>pytest · JUnit · mitmproxy · JMeter · Claude API · Claude Code</sub></p>
+<p align="center"><b>Python</b> · <b>Java</b> · <b>JavaScript</b> · FastAPI · Flask · MySQL · GitHub Actions<br/><sub>pytest · JUnit · mitmproxy · JMeter · Claude API · Claude Code</sub></p>
