@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:70a5fd,100:0d1117&height=200&section=header&text=Pankaj%20Pandey&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=QA%20Engineer%20%C2%B7%20AI-assisted%20Test%20Tooling&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f8cff,50:7c5cff,100:c056f5&height=200&section=header&text=Pankaj%20Pandey&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=QA%20Engineer%20%C2%B7%20AI-assisted%20Test%20Tooling&descAlignY=55&descSize=20" width="100%"/>
 
 <a href="https://github.com/PankajPandey-codes">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&repeat=true&width=800&height=45&lines=Seeded+bugs+over+coverage+percentages;AI-written+tests+that+prove+their+value;API+regression+for+lending+and+banking+platforms" alt="Typing SVG" />
@@ -44,7 +44,7 @@ Three Claude agents write a pytest suite from an API spec. A reference app with 
 No agent framework: the orchestration is a single ~40-line function with typed contracts at every step. CI runs the full suite against a fake LLM client, so it costs nothing and never flakes. A live run costs about $0.11. → [Read the repo](https://github.com/PankajPandey-codes/ai-test-case-generator)
 
 <div align="center">
-  <a href="https://github.com/PankajPandey-codes/ai-test-case-generator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=PankajPandey-codes&repo=ai-test-case-generator&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=70a5fd&text_color=ffffff"/></a>
+  <a href="https://github.com/PankajPandey-codes/ai-test-case-generator"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=PankajPandey-codes&repo=ai-test-case-generator&theme=transparent&hide_border=true&title_color=70a5fd&icon_color=70a5fd&text_color=c9d1d9"><img  src="https://github-readme-stats.vercel.app/api/pin/?username=PankajPandey-codes&repo=ai-test-case-generator&theme=default&hide_border=true&bg_color=00000000&title_color=2f6fed&icon_color=2f6fed&text_color=24292f"/></picture></a>
 </div>
 
 ---
@@ -147,8 +147,8 @@ Multi-harness agent toolkit: skills, agents, hooks and rules for Claude Code, Co
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=PankajPandey-codes&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&icon_color=70a5fd&text_color=ffffff"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PankajPandey-codes&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=ffffff&langs_count=6"/>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=PankajPandey-codes&show_icons=true&theme=transparent&hide_border=true&title_color=70a5fd&icon_color=70a5fd&text_color=c9d1d9"><img height="180em" src="https://github-readme-stats.vercel.app/api?username=PankajPandey-codes&show_icons=true&theme=default&hide_border=true&bg_color=00000000&title_color=2f6fed&icon_color=2f6fed&text_color=24292f"/></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=PankajPandey-codes&layout=compact&langs_count=6&theme=transparent&hide_border=true&title_color=70a5fd&icon_color=70a5fd&text_color=c9d1d9"><img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PankajPandey-codes&layout=compact&langs_count=6&theme=default&hide_border=true&bg_color=00000000&title_color=2f6fed&icon_color=2f6fed&text_color=24292f"/></picture>
 </div>
 
 ---
@@ -163,6 +163,6 @@ Multi-harness agent toolkit: skills, agents, hooks and rules for Claude Code, Co
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:70a5fd,100:0d1117&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f8cff,50:7c5cff,100:c056f5&height=120&section=footer" width="100%"/>
 
 </div>
