@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="640" alt="Pankaj Pandey, QA Engineer: API and AI-assisted testing"/>
+<p><img src="assets/banner.svg" width="640" alt="Pankaj Pandey, QA Engineer: API and AI-assisted testing"/></p>
 
 <p>
 <a href="https://www.linkedin.com/in/pankaj-pandey-46535b50"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
